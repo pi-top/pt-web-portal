@@ -44,7 +44,7 @@ export default () => {
   };
 
   const pathDisplaysApDisconnectDialog = (path: string) => {
-    return ![PageRoute.Upgrade.toString(), PageRoute.Restart.toString()].includes(path);
+    return ![PageRoute.Restart.toString()].includes(path);
   };
 
   return (
